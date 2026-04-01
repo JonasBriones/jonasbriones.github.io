@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Web — Jonathan Briones</title>
+    https://cdn.tailwindcss.com
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full bg-white shadow z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Jonathan <span class="text-blue-600">Briones</span></h1>
+            <div class="hidden md:flex space-x-8 text-lg">
+                <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+                <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+                <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="inicio" class="pt-32 pb-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl font-bold leading-tight">Diseño y Desarrollo Web Profesional<br><span class="text-blue-600">para negocios que quieren crecer</span></h1>
+                <p class="mt-6 text-gray-600 text-lg">Creo páginas web modernas, ultra rápidas y 100% optimizadas para móvil. Además, diseño sistemas de reserva robustos para evitar errores y aumentar tus clientes.</p>
+                <div class="mt-8 flex space-x-4">
+                    <a href="#servicios" class="px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700">Ver servicios</a>
+                    <a href="#contacto" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-xl hover:bg-blue-50">Contáctame</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" class="rounded-2xl shadow-xl" alt="Diseño profesional" />
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center">Servicios</h2>
+            <p class="text-center text-gray-600 mt-2">Soluciones profesionales para potenciar tu negocio local</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-14">
+                <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4">Optimización Móvil</h3>
+                    <p class="text-gray-600">Hago que tu web funcione perfecta en móviles: rápida, fluida y sin errores.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4">Sistema de Reservas</h3>
+                    <p class="text-gray-600">Reservas fiables con notificaciones automáticas por correo o WhatsApp.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-4">Web Profesional</h3>
+                    <p class="text-gray-600">Diseño moderno, rendimiento óptimo y mantenimiento incluido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold">Portfolio</h2>
+            <p class="text-gray-600 mt-2">Ejemplos de trabajos y mejoras reales</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <img class="rounded-xl shadow" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" />
+                <img class="rounded-xl shadow" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" />
+                <img class="rounded-xl shadow" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=800&q=80" />
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-24 bg-gray-900 text-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold">Contacto</h2>
+            <p class="mt-4 text-gray-300 text-lg">Escríbeme y te preparo una auditoría gratuita de tu web</p>
+            <div class="mt-10">
+                <a href="mailto:jonasbriones.dev@gmail.com" class="text-xl underline">jonasbriones.dev@gmail.com</a>
+            </div>
+            <div class="mt-4">
+                <a href="https://wa.me/000000000" class="text-xl underline">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center bg-black text-gray-400">
+        © 2026 Jonathan Briones — Agencia Web Profesional
+    </footer>
+
+
+</body>
+</html>
